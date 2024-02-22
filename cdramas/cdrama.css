@@ -1,0 +1,200 @@
+:root{
+    --main-color: #f5d7d7;
+  }
+
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    background-color: #faf7f2;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gamja Flower';
+    text-decoration: 5px underline var(--main-color);
+
+}
+
+.banner span{
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.banner img{
+    width: 50px;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
+.imgleft{
+    float: left;
+}
+
+.imgright{
+    float: right;
+}
+
+.slider-container {
+    position: relative;
+    width: 900px;
+    height: 450px;
+    overflow: hidden;
+    margin: 20px auto;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Style for Navigation Controls */
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1.5px solid transparent;
+    height: 60px;
+    width: 40px;
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain; 
+}
+
+.nav-sections{
+    width: 153px;
+    height: 203.99px;
+    border-radius: 7px;
+    transition: transform 0.25s ease-in-out;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.nav-sections:hover{
+    transform: scale(1.05);
+}
+
+.nav-border{
+    overflow: hidden;
+    width: 154px;
+    height: 203.99px;
+    border-radius: 7px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+
+.section-wrapper{
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+
+
+.fa{
+    font-size: 60px;
+    color: #f5d7d7;
+}
+
+.tier.item{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+.tier.title{
+    padding: 4px;
+    border-radius: 4px;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.tier.img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
+}
+
+.tier.container{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    margin-left: 40px;
+    gap: 30px;
+
+}
+
+.tier.img{
+    max-height: 25vh;
+    object-fit: contain;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.tierlist{
+    margin-left: 50px;
+    border: 1px solid var(--main-color);
+    background-color: var(--main-color);
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    font-family: 'Gamja Flower';
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.tier.item{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+.wrapperfortitle{
+display: inline-block;
+margin-top: 10px;
+}
+
+.name{
+display: block;
+font-size: 15px;
+text-align: center;
+font-family: "Gaegu";
+}
+
+.sections {
+    border: 1px solid var(--main-color);
+    background-color: var(--main-color);
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    font-family: 'Gamja Flower';
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+

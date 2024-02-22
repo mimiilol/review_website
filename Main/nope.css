@@ -1,0 +1,47 @@
+div{
+    display: inline-block;
+}
+
+.one{
+    width: 60%;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 150px;
+    vertical-align: top;
+  }
+  
+  .two{
+    width: 30%;
+    margin-right: 30px;
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+
+  .button{
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 4px;
+    transition-duration: 0.3s;
+    border: 2px solid grey;
+  }
+  
+  .button:hover {
+    background-color: grey;
+    color: black;
+    border: 2px solide grey;
+  }
+
+  body{
+    background-color: rgb(196, 192, 192);
+  }

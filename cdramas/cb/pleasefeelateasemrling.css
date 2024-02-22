@@ -1,0 +1,41 @@
+h1{
+    background-color: #F6E47F;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+div {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+  }
+
+  img{
+    width: 100%;
+    border: 2px solid #F6E47F;
+    border-radius: 10px;
+  }
+
+.one{
+    width: 60%;
+    margin-right: 30px;
+}
+
+.two{
+    width: 30%;
+}
+
+body{
+    background-color: #fffcea;
+}
+
+h1{
+  font-family: "Nunito Sans";
+}
+h2{
+  font-family: "Nunito Sans";
+}
+p{
+  font-family: "Nunito Sans";
+}

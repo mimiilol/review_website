@@ -1,0 +1,47 @@
+div{
+    display: inline-block;
+}
+
+.one{
+    width: 60%;
+    margin-right: 50px;
+    margin-left: 50px;
+    vertical-align: top;
+    text-align: center;
+  }
+  
+.two{
+  width: 30%;
+  margin-right: 30px;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.button{
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-right: 4px;
+  transition-duration: 0.3s;
+  border: 2px solid pink;
+}
+
+.button:hover {
+  background-color: pink;
+  color: black;
+  border: 2px solid pink;
+}
+
+h1{
+  color: pink;
+}
+

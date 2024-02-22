@@ -1,0 +1,122 @@
+.heading{
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 20px;
+}
+
+.top{
+    margin-bottom: 2px;
+    line-height: 10px;
+}
+
+.column.left{
+    width: 80%;
+}
+
+.column.right{
+    width: 20%;
+}
+
+.moreimgs{
+    width: 30%;
+    margin-right: 20px;
+}
+
+.big.container{
+    display: flex;
+}
+
+.one{
+    width: 25%;
+    margin-right: 30px;
+}
+
+.two{
+    width: 65%;
+}
+
+.one.and.two{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-right: 5px;
+}
+
+
+.type{
+    border: 1px solid grey;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+}
+
+.type:hover{
+    border: 1px solid grey;
+    background-color: grey;
+    color: white;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.info, .top.text{
+    font-size: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid grey;
+}
+
+.top.text{
+    border-top: 2px solid grey;
+    line-height: 40px;
+    padding-top: 15px;
+}
+
+.little.text{
+    border: none;
+    font-family: 'Nunito Sans';
+}
+
+.morelikethis{
+    display: flex;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+body{
+    font-family: 'Nunito Sans';
+}
+
+span{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.review{
+    float: right;
+    padding-right: 30px;
+    box-sizing: border-box;
+    width: 99%;
+}
+
+.floatleft{
+    float: left;
+    box-sizing: border-box;
+    width: 1%;
+}
+
+.container{
+    box-sizing: border-box;
+}
